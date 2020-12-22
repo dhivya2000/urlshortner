@@ -1,0 +1,11 @@
+
+<html>
+    <head><title>Home</title></head>
+    <body>
+        <form action="check" method="POST">{% csrf_token %}
+            <label for="furl">Enter url</label><br>
+            <input type="url" id="furl" name="furl" ><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
